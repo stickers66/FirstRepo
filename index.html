@@ -2,20 +2,30 @@
 <html>
 <head>
 <title>Github Test</title>
-<script scr="http://code.jquery.com/jquery-1.11.1.min.js"></script
+<script scr="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script> 
 $(document).ready(function() {
-
+$("#hide").click(function() {
+$("#box"),hide(5000);
+});
 
 });
+</script>
+<stytle> #box { width: 500px;
+                height: 400px;
+                background: green;
+                }
+</stytle>
+
+
 
 
 </head>
 <body>
 <h1>Github Test</h1>
 <ul><li id="hide">Hide</li>
-  <li id"show">Show</li>
-  <li id"slideup">SlideUp</li>
+  <li id="show">Show</li>
+  <li id="slideup">SlideUp</li>
   <li id="slidedown">SlideDown</li>
 </ul>
 
